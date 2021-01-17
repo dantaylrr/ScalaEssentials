@@ -1,4 +1,4 @@
-name := "SparkCoursera"
+name := "ScalaEssentials"
 
 version := "0.1"
 
