@@ -8,4 +8,7 @@ I have already completed a udemy course on Spark with Scala, and am using this r
 
 https://www.coursera.org/specializations/scala
 
-All of the above is being done in preparation for a new role as a Data Engineer in the coming weeks.
+All of the above is being done in preparation for a new role as a Data Engineer in the coming weeks. 
+
+**NOTE**: Chapter notation is one behind. i.e. Chapter 1 in this repository == Chapter 2 in the book. \
+*Getting Started.md* will cover the contents of Chapter 1.
