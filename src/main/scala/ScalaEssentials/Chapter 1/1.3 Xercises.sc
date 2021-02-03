@@ -17,3 +17,4 @@ object calc2 {
 }
 
 calc2.square(3.0)
+calc2.cube(3.0)
