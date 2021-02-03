@@ -65,3 +65,29 @@ class Counter(x: Int) {
 
 // Test answer.
 new Counter(15).asc(11).desc(3).asc().count
+
+// q). Build out the counter to include an "adder" from another class value.
+
+class Adder(amount: Int) {
+  def add(in: Int) = in + amount
+}
+// Provided
+
+// Let's define a field 'add10' with class value 10.
+val add10 = new Adder(10)
+
+// a).
+
+class Counter(x: Int) {
+  def asc(y: Int = 1): Counter = new Counter(x + y)
+  def desc(y: Int = 1): Counter = new Counter(x - y)
+  val count = x
+
+  // We're taking in a parameter called 'adder' of class Adder & applying it to count.
+  def adjust(adder: Adder): Counter = new Counter(adder.add(count))
+}
+
+// Test answer - passing our new field of class Adder (add10) into the adjust method.
+new Counter(15).adjust(add10).count
+
+// A little tricky / fiddly, this question is more relevant for the next section.
