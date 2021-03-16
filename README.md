@@ -1,4 +1,4 @@
-#Introduction.
+# Introduction.
 
 This repository will be primary used for note-taking whilst I read through the following book on Scala fundamentals:
 
